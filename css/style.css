@@ -32,6 +32,11 @@
 
 -----------------------------------------------------------------------------------*/
 
+@font-face {
+  font-family: myFont;
+  src: url(../Varela_Round/VarelaRound-Regular.ttf);
+}
+
 /*----------------------------------------*/
 /*  1.  Theme default CSS
 /*----------------------------------------*/
@@ -137,7 +142,7 @@ a:active, a:hover {
 body {
   background: #fff none repeat scroll 0 0;
   color: #444;
-  font-family: 'Open Sans', sans-serif;
+  font-family: myFont, 'Open Sans', sans-serif;
   font-size: 14px;
   text-align: right;
   overflow-x: hidden;
